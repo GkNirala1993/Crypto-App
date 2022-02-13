@@ -1,0 +1,89 @@
+.App {
+  text-align: center;
+  background-color: #2a303b;
+  min-height: 100vh;
+  color: white;
+}
+
+.text{
+  color: white;
+  font-weight: bold;
+  padding-top: 15px;
+  margin-bottom: 10px;
+}
+#vertical-menu{
+  height: 40px;
+  position: absolute;
+  right: 0;
+  top: 15px;
+ }
+ .navbar{
+  background-color: black;
+  height: 11%;
+}
+ .btn{
+   width: 20%;
+ }
+.btn img{
+  height: 25px;
+  display: block;
+  margin: auto;
+}
+.container-top{
+  width: 95%;
+  margin: auto;
+  color: white;
+  background-image: linear-gradient(to right, blue, rgb(167, 13, 167));
+  border-radius: 10px;
+}
+#top-icon{
+  height: 30px;
+}
+.container-coin{
+  width: 98%;
+  margin: auto;
+}
+.coin-image{
+  height: 60px;
+  margin-top: 5px;
+}
+.rate-change{
+  font-size: x-small;
+}
+.container-news{
+  width: 98%;
+  margin: auto;
+}
+.col-right{
+  text-align: right;
+  font-size: 15px;
+}
+.col-left{
+  text-align: left;
+  font-weight: bold;
+}
+.news-img{
+  height: 120px;
+  width: 150px;
+  margin: 10px;
+}
+.news-title{
+  text-align: left;
+}
+.text-signal{
+  color: white;
+  padding-top: 15px;
+  margin-bottom: 10px;
+}
+.signal-img{
+  height: 120px;
+  margin: 10px;
+  border-radius: 10px;
+}
+.signal-data{
+  text-align: left;
+}
+.signal-categories{
+  color: rgb(199, 199, 135)!important;
+  font-size: 15px;
+}
