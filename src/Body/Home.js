@@ -5,7 +5,7 @@ import Footer from "../component/Footer";
 
 const Home = () => {
   const [data, setData] = useState({});
-  const [port, setPort] = useState({});
+  
   useEffect(() => {
     axios
       .get(
@@ -15,6 +15,8 @@ const Home = () => {
         setData(res.data);
       });
   }, []);
+
+  
 
   let allKeys = [];
   if (data.DISPLAY) {
@@ -60,7 +62,7 @@ const Home = () => {
               </div>
               <div className="col p-3">
                 {dataset.INR.PRICE}
-                <div className="rate-change">
+                <div className={dataset.INR.CHANGEPCTDAY > 0 ?"positive-rate-change": "negative-rate-change"}>
                   {dataset.INR.CHANGEPCTDAY + "%"}
                 </div>
               </div>

@@ -32,8 +32,8 @@ const Signal = () => {
         let signal = signalData.Data[d];
         console.log(d);
         return (
-          <div className="container-signal border-bottom" key={n}>
-            <div className="row">
+          <div className="container-signal" key={n}>
+            <div className="row signl-list">
               <div className="col-sm-2">
                 <img className="signal-img" src={signal.imageurl} />
               </div>
